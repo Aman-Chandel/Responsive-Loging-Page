@@ -1,0 +1,158 @@
+*{
+    padding: o;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+header{
+    position:fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding:20px 120px;
+    background: rgb(58, 44, 44);
+    box-shadow: 0 0 30px;
+    border-radius: 2rem;
+    margin-left: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+header:hover{
+         border:3px solid white;
+         border-radius: 3rem;
+         background: #9c5f5f;
+         box-shadow: 0 0 35px #9c5f5f ;
+}
+.logo{
+    font-size:25px;
+    color:aqua;
+    text-decoration: none;
+    font-weight: 600;
+}
+.logo:hover{
+    color:black;
+    border:2px solid aqua;
+    padding: 3px;
+    border-radius: 2rem;
+    background: white;
+    box-shadow: 0 0 30px aqua;
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border: 2px solid transparent;
+    padding: 2px;
+    border-radius: 2rem;
+   
+}
+
+
+nav a:hover{
+    color:aqua;
+    border: 2px solid aqua;
+    background: white;
+    padding: 3px;
+    border-radius: 2rem;
+    box-shadow: 0 0 30px aqua;
+  
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    color: white;
+    font-size: 150px;
+    font-weight: 700;
+    background-image: url(./img/text\ background.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.home{
+    /* background:#92cace; */
+    background:white;
+}
+.home:hover{
+    background-color: aqua;
+}
+article h1{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 150px;
+    font-weight: 700;
+    background-image: url(./img/text\ background.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.about{
+    background: black;
+}
+/* .about:hover{
+    background:#595f15;
+} */
+ .skills{
+    background: white;
+
+ }
+ .skills:hover{
+    background: aqua;
+ }
+
+ .projects{
+     background: white;
+ }
+ .projects:hover{
+     background: black;
+ }
+
+ .contact:hover{
+        background: aqua;
+ }
+/* section:nth-child(even){
+    background: aqua;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
